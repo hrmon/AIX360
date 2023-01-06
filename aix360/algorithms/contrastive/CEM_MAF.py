@@ -3,7 +3,7 @@ from __future__ import print_function
 from aix360.algorithms.lwbe import LocalWBExplainer 
 from aix360.algorithms.contrastive.CEM_MAF_aen_PN import AEADEN as AEADEN_PN
 from aix360.algorithms.contrastive.CEM_MAF_aen_PP import AEADEN as AEADEN_PP
-from tensorflow.contrib.keras.api.keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
 
 import os
 import sys

@@ -16,8 +16,8 @@
 import sys, os
 import tensorflow as tf
 import numpy as np
-from tensorflow.contrib.keras.api.keras.models import Model, Sequential, model_from_json
-from tensorflow.contrib.keras.api.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.models import Model, Sequential, model_from_json
+from tensorflow.keras.callbacks import ModelCheckpoint
 
 class AEADEN:
     def __init__(self, sess, model, mask_mat, mode, batch_size, kappa, init_learning_rate,

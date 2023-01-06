@@ -17,8 +17,8 @@ import sys
 import tensorflow as tf
 import numpy as np
 import pickle
-from tensorflow.contrib.keras.api.keras.models import Model, Sequential, model_from_json
-from tensorflow.contrib.keras.api.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.models import Model, Sequential, model_from_json
+from tensorflow.keras.callbacks import ModelCheckpoint
 import os
 
 class AEADEN:

@@ -16,14 +16,14 @@ import tensorflow as tf
 import os
 import numpy as np
 import scipy.misc
-from tensorflow.contrib.keras.api.keras.applications.resnet50 import ResNet50
-from tensorflow.contrib.keras.api.keras.applications.vgg16 import VGG16
-from tensorflow.contrib.keras.api.keras.layers import Input, Dense, Dropout, LeakyReLU, Activation
-from tensorflow.contrib.keras.api.keras.models import Model, model_from_json, Sequential
-from tensorflow.contrib.keras.api.keras.callbacks import ModelCheckpoint
-from tensorflow.contrib.keras.api.keras import metrics
-from tensorflow.contrib.keras.api.keras import regularizers
-from tensorflow.contrib.keras.api.keras.optimizers import SGD
+from tensorflow.keras.applications.resnet50 import ResNet50
+from tensorflow.keras.applications.vgg16 import VGG16
+from tensorflow.keras.layers import Input, Dense, Dropout, LeakyReLU, Activation
+from tensorflow.keras.models import Model, model_from_json, Sequential
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras import metrics
+from tensorflow.keras import regularizers
+from tensorflow.keras.optimizers import SGD
 
 def load_AE(codec_prefix, print_summary=False):
 
